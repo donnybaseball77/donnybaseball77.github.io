@@ -566,11 +566,11 @@
           <article class="glass-card reveal overflow-hidden rounded-[1.75rem] p-4 md:col-span-2 xl:col-span-3">
             <div class="mx-auto max-w-4xl rounded-[1.5rem] border border-gold/20 bg-gradient-to-br from-[rgba(255,255,255,0.96)] to-[rgba(238,242,248,0.92)] p-3 shadow-[0_20px_50px_rgba(0,0,0,0.22)]">
               <div class="overflow-hidden rounded-[1rem] border border-slate-200/80 bg-white">
-                <img
-                  src="leadership-certificate-source.jpeg"
-                  alt="Leadership Cohort Certificate of Excellence"
-                  class="h-auto max-h-[360px] w-full object-contain"
-                >
+              <img
+                src="leadership-certificate-source.jpeg"
+                alt="Leadership Cohort Certificate of Excellence"
+                class="h-auto max-h-[360px] w-full object-contain"
+              >
               </div>
             </div>
             <p class="mx-auto mt-4 max-w-2xl text-center text-sm leading-7 text-muted">
@@ -730,7 +730,7 @@
 
       window.addEventListener("resize", () => {
         if (window.innerWidth >= 768) {
-          mobileMenu.classList.add("hidden");
+          mobileMenu.classList.remove("hidden");
           menuToggle.setAttribute("aria-expanded", "false");
           spans[0].style.transform = "";
           spans[1].style.opacity = "1";
